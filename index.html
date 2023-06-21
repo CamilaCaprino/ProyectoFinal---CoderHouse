@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/css/styles.css" rel="stylesheet" type="text/css">
+    <title>Matería Mates</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Header + Carrito -->
+    <header id="header">
+        <h1>Matería Mates</h1>
+        <div>
+            <img id="carrito" class="carrito" src="/img/carrito-de-compras.png" alt="">
+            <div id="numero"></div>
+        </div>
+    </header>
+
+    
+    <!-- Productos -->
+    <main>
+        <div id="contenedor" class="contenedor"> </div>
+    </main>
+
+    <!-- Botón flotante Whatsapp -->
+    <a href="https://api.whatsapp.com/message/TQMPTAKHMAP7G1?autoload=1&app_absent=0" class="btn-wsp" target="_blank">
+	    <i class="fa fa-whatsapp icono"></i>
+	</a>
+
+   <!-- Carrito Contenedor -->
+   <div id="contenedorCompra">
+    <div class="informacionCompra" id="informacionCompra">
+        <h2>Carrito</h2>
+        <p class="x" id="x">x</p>
+    </div>
+
+    <div class="productosCompra" id="productosCompra"></div>
+    <div class="total" id="total"></div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Contacto</h4>
+                        <div class="social-links">
+                        <a href="https://api.whatsapp.com/message/TQMPTAKHMAP7G1?autoload=1&app_absent=0" ><i class="fab fa-whatsapp"></i></a></div>
+                </div>
+                <div class="footer-col">
+                    <h4>Matería Mates</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Tienda Online</h4>
+                    <ul>
+                        <li><a href="index.html">productos</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Seguinos en Instagram</h4>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/materiamates"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </footer>
+
+    <!-- Enlace Librería SweetAlert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- Icon WhatsApp -->
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+    <!-- Enlace JS principal -->
+    <script src="js/principal.js"></script>
+</body>
+
+</html>

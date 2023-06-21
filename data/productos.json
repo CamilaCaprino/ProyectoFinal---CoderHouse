@@ -1,0 +1,93 @@
+[
+    {
+    "nombre": "Vida",
+    "precio": 7500,
+    "stock": 1,
+    "img": "ArboldelaVida.jpg",
+    "id" : 1
+    },
+    {
+    "nombre": "Argentina",
+    "precio": 7500,
+    "stock": 3,
+    "img": "Argentina.jpg",
+    "id" : 2
+    },
+    {
+    "nombre": "Caballo ",
+    "precio": 7500,
+    "stock": 0,
+    "img": "Caballo.jpg",
+    "id" : 3
+    },
+    {
+    "nombre": "Flor de Lis",
+    "precio": 7500,
+    "stock": 2,
+    "img": "FlordeLis.jpg",
+    "id" : 4
+    },
+    {
+    "nombre": "Flor Pensamiento",
+    "precio": 7500,
+    "stock": 1,
+    "img": "FlordelPensamiento.jpg",
+    "id" : 5
+    },
+    {
+    "nombre": "Girasol ",
+    "precio": 7500,
+    "stock": 1,
+    "img": "Girasol.jpg",
+    "id" : 6
+    },
+    {
+    "nombre": "República Argentina ",
+    "precio": 7500,
+    "stock": 1,
+    "img": "MonedaRepublicaArg.jpg",
+    "id" : 7
+    },
+    {
+    "nombre": "Vida",
+    "precio": 500,
+    "stock": 2,
+    "img": "ArbolB.jpg",
+    "id" : 8
+    },
+    {
+    "nombre": "Caballo",
+    "precio": 500,
+    "stock": 2,
+    "img": "CaballoB.jpg",
+    "id" : 9
+    },
+    {
+    "nombre": "Flor de Lis",
+    "precio": 500,
+    "stock": 0,
+    "img": "FlordeLisB.jpg",
+    "id" : 10
+    },
+    {
+    "nombre": "Girasol",
+    "precio": 500,
+    "stock": 2,
+    "img": "GirasolB.jpg",
+    "id" : 11
+    },
+    {
+    "nombre": "Guarda Pampa",
+    "precio": 500,
+    "stock": 2,
+    "img": "GuardaPampa.jpg",
+    "id" : 12
+    },
+    {
+    "nombre": "Clásica",
+    "precio": 500,
+    "stock": 4,
+    "img": "Clasica.jpg",
+    "id" : 13
+    }
+]
