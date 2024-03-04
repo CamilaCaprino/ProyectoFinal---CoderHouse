@@ -68,7 +68,6 @@ function cargaEventos(){
     deseaFinalizar.addEventListener("click", () => {
         Swal.fire({
           title: '¿Estás seguro que deseas finalizar tu compra?',
-          icon: 'question',
           showCancelButton: true,
           confirmButtonColor: '#4D5E6F',
           cancelButtonColor: '#d33',
