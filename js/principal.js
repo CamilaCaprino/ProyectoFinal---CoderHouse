@@ -176,7 +176,6 @@ function eliminar(indice) {
     Swal.fire({
       title: 'Eliminar Producto',
       text: '¿Estás seguro que deseas eliminar este producto del carrito?',
-      icon: 'warning',
       showCancelButton: true,
       confirmButtonColor: '#3085d6',
       cancelButtonColor: '#d33',
