@@ -166,7 +166,7 @@ function mostrarLista(){
     valortotal = 0;
     // Recorre todos los productos que se añaden en lista
     for (let i = 0; i < lista.length; i++){
-        productosCompra.innerHTML += `<div><div class="img"><button onclick=eliminar(${i}) class="botonTrash"><img src="/img/trash.png"></button><p>${lista[i].nombre}</p></div><p> $${lista[i].precio}</p></div>`
+        productosCompra.innerHTML += `<div><div class="img"><button onclick=eliminar(${i}) class="botonTrash"><img src="img/trash.png"></button><p>${lista[i].nombre}</p></div><p> $${lista[i].precio}</p></div>`
         valortotal += parseInt(lista[i].precio); // a valortotal le asignamos la suma del precio del producto dentro de la lista
     }
     total.innerHTML = `<p>Valor Total: </p><p><span>$${valortotal}</span></p>`
